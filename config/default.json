@@ -1,0 +1,8 @@
+{
+    "defaults" : {
+        "__Instructions__" : "In the dbURI, the place where the password goes should be called <password>. That's it.",
+        "listenPort" : 5500,
+        "dbURI" : "",
+        "dbPassword" : ""
+    }
+}

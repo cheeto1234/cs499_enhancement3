@@ -58,13 +58,13 @@ Start the server
         - Body of request will be the document created
     2. Read endpoints:
         - All: **/**
-        - By ID: **/id/<id int>**
-        - By name: **/name/<name string>**
-        - By rings: **/hasRings/<rings boolean>**
-        - By order from sun: **/orderFromSun/<order int>**
-        - By surface temperature range: **/surfaceTemperatureC/<low int>&<high int>**
-        - By element in atmosphere: **/mainAtmosphere/<element string>**
-    3. Update endpoint: **/update/<id int>**
+        - By ID: **/id/(id int)**
+        - By name: **/name/(name string)**
+        - By rings: **/hasRings/(rings boolean)**
+        - By order from sun: **/orderFromSun/(order int)**
+        - By surface temperature range: **/surfaceTemperatureC/(low int)&(high int)**
+        - By element in atmosphere: **/mainAtmosphere/(element string)**
+    3. Update endpoint: **/update/(id int)**
         - Body of request will be which values to update
     4. Delete endpoint: **/delete/<id int>**
 - The program must be connected to a Mongo database, the URI and password of which can be set in the config file
